@@ -1,0 +1,12 @@
+const bodyElement = document.querySelector('body');
+bodyElement.style.backgroundColor = '#e9e9e9';
+const news = document.querySelector('.news');
+news.style.backgroundColor = 'white';
+news.style.maxWidth = '60rem';
+const mainHeader = document.querySelector('h1');
+mainHeader.classList.add('news__title');
+mainHeader.textContent = 'Aktuální novinky';
+const postMain = document.getElementById('zprava1');
+postMain.classList.add('post--main');
+const thirdPostImg = document.querySelector('#zprava3 img');
+thirdPostImg.src = 'images/zprava3-novy.jpg';
